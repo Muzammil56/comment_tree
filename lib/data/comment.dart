@@ -7,7 +7,7 @@ class Comment {
   String? content;
   String? createdAt;
   String? id;
-  int? isLiked;
+  String? isLiked;
 
   Comment({required this.avatar, required this.userName, required this.content, this.createdAt, this.id, this.isLiked});
 }
